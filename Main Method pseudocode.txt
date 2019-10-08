@@ -1,0 +1,60 @@
+/* 
+
+Program Header
+
+*/
+
+Public Class JedidiahPrallNicholasRyan_04 {
+
+	Instantiate listOfStudents and listOfGradeItems
+
+Main Method (String[] args) {
+
+	Declare listOfStudents and listOfGradeItems
+	Declare strings for name of files using filenumber program to name input and
+output files 
+	method call to processInput void
+		(INPUT_FILE parameter) 
+	
+	method call to generateReport void
+		(OUTPUT_FILE parameter)
+End Main
+
+processInput Method
+	Declare the file with input stream and array of string to hold info
+
+	open file and and check to make sure it is filled
+	split method call to fill array
+	check for Student or Grade Item
+	catch errors if file is empty or not found and first lines 
+	are filled with proper parameters
+	if Student call processStudentData
+	if Grade Item call processGradeItem
+
+end ProcessInput method
+
+processStudentData Method
+	Declare newStudent Student Object
+	
+	Check second entry is "ADD" or "DEL"
+	Check to see if duplicate 
+	If "ADD" Fill Student 
+	If "DEL" Remove Student
+	Desplace relevent information from all Actions on console
+end processStudentData
+
+processGradeItemData Method
+
+	Completes the same as above for Grade Item Object 
+end processGradeItemData
+
+generateReport Method
+	Declare studentArray and gradeItemArray
+
+	Add lists for Student and Grade Item 
+	Build Strings for the format 
+	print format and data to console and Output file 
+	use pad methods from ToolkitBasic to make the data line up
+end generateReport
+
+end Class
