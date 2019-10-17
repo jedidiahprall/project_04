@@ -1,12 +1,14 @@
 /**
  * List.java 
  * 
+ * Object contains a generic list of items using features from the Node class and 
+ * implementing methods from MyCollectionInterface
  * 	
  */
-public class List implements MyCollectionInterfaceProject04<Object> {
+public class List<T> implements MyCollectionInterfaceProject04<Object> {
 
-	private Node<Object> head;
-	private int size;
+	private Node<Object> head; // Denotes the start of the node
+	private int size;		   // Number of items in the node
 	
 	/**
 	 * Default constructor. Instantiates the head node and 
@@ -16,7 +18,7 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		this.size = 0;
 		this.head = new Node<Object>(null);
 	} // End constructor
-	
+	// **********************************************************************************
 	/**
 	 * Adds an element to the end of the list. 
 	 * 
@@ -38,7 +40,7 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		
 		return success;
 	} // End add
-
+	// **********************************************************************************
 	/**
 	 * Adds an element to the list at a specified index location.
 	 * 
@@ -62,7 +64,7 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		
 		return success;
 	} // End add
-
+	// **********************************************************************************
 	/**
 	 * Removes all entries of a specified entry from the list
 	 * 
@@ -89,7 +91,7 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		
 		return success;
 	} // End remove
-
+	// **********************************************************************************
 	/**
 	 * Removes all data from the list.
 	 */
@@ -97,14 +99,14 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		// Overrites chain by instantiating a new Node
 		this.head = new Node<Object>(null);
 	} // End clear
-
+	// **********************************************************************************
 	/**
 	 * Returns the current size of the list. 
 	 */
 	public int getCurrentSize() {
 		return this.size;
 	} // End getCurrentSize
-
+	// **********************************************************************************
 	/**
 	 * Checks to see if there is any data in the list
 	 * @return true if empty, false if not
@@ -114,7 +116,7 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		// if the list is empty, the head points to null
 		return this.head.getNextNode() == null;
 	} // End isEmpty
-
+	// **********************************************************************************
 	/**
 	 * Counts the occurance of a specified entry in the list.
 	 * 
@@ -134,7 +136,7 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		
 		return frequency;
 	} // End getFrequencyOf
-
+	// **********************************************************************************
 	/**
 	 * Checks the list to see if a specified entry is in the list. 
 	 * 
@@ -153,7 +155,7 @@ public class List implements MyCollectionInterfaceProject04<Object> {
 		
 		return contains;
 	} // End contains
-
+	// **********************************************************************************
 	/**
 	 * Converts the List into a standard array.
 	 * 
