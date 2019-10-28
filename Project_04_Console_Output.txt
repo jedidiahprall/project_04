@@ -1,0 +1,168 @@
+Console Output 01
+
+Please enter a file number: 01
+
+Email does not contain an '@' character or is blank. Please enter email again.
+Student '900123456' was added to the list.
+Student '900123456' already exists in the list. Skipping this entry
+Grade item '1' with Student ID '900123456' was added to the list.
+Student '900123457' was added to the list.
+Student '900123458' was added to the list.
+Student '900123459' was added to the list.
+Grade item '2' with Student ID '900123456' was added to the list.
+Grade item '3' with Student ID '900123456' was added to the list.
+Student '900123457' already exists in the list. Skipping this entry
+Student '900123456' could not be removed from the list. Skipping this entry.
+Grade item '1' with Student ID '900123456' cannot be deleted.
+Student '900123456' could not be removed from the list. Skipping this entry.
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900123456       Joe             Doe             joedoe@msudenver.edu
+Grade items: 
+ 1      23456     HW      20190112   100      95
+ 2      23456     HW      20190113   100      75
+ 3      23456     HW      20190114   100      95
+====================================================================================
+Total:                               300      265  		88.33%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900123457       Jane            Doe             janedoe@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900123458       Mary            Smith           marysmith@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900123459       David           Smith           davidsmith@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+------------------------------------------------------------------------
+
+
+
+Console Output 02
+
+Please enter a file number: 02
+
+Email does not contain an '@' character or is blank. Please enter email again.
+'ADD' or 'DEL' tokens not found in line. '900123456' must be one of these two tokens to be processed
+Student '900123456' was added to the list.
+Grade item '1' with Student ID '900123456' was added to the list.
+Not a valid item type. Must contain one of the following: 
+HW, Quiz, Class Work, Test or Final
+Student '900123457' was added to the list.
+Student '900123458' was added to the list.
+Student '900771359' was added to the list.
+Grade item '2' with Student ID '900123456' was added to the list.
+Grade item '3' with Student ID '900123456' was added to the list.
+Student '900123457' already exists in the list. Skipping this entry
+Student '900123456' could not be removed from the list. Skipping this entry.
+Grade item '1' with Student ID '900123456' cannot be deleted.
+Student '900123456' could not be removed from the list. Skipping this entry.
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900123456       Joe             Doe             joedoe@msudenver.edu
+Grade items: 
+ 1      23456     HW      20190112   100      95
+ 2      23456     HW      20190113   100      75
+ 3      23456     HW      20190114   100      95
+====================================================================================
+Total:                               300      265  		88.33%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900123457       John            Dodsin          jdodsin@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900123458       Meredith        Smalls          meredithsmalls@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+900771359       David           Smith           davidsmith@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+------------------------------------------------------------------------
+
+
+Console Output 03
+
+
+Please enter a file number: 03
+Student '9006673351' was added to the list.
+Student '9002234461' was added to the list.
+Student '9000344425' was added to the list.
+Student '9003347855' was added to the list.
+Student '9002234461' could not be removed from the list. Skipping this entry.
+Grade item '1' with Student ID '9006673351' was added to the list.
+Grade item '2' with Student ID '9006673351' was added to the list.
+Grade item '3' with Student ID '9006673351' was added to the list.
+Not a valid item type. Must contain one of the following: 
+HW, Quiz, Class Work, Test or Final
+Grade item '1' with Student ID '9003347855' was added to the list.
+Student '9000344425' already exists in the list. Skipping this entry
+
+Email does not contain an '@' character or is blank. Please enter email again.
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9006673351      Seamus          Davis           sdavis@msudenver.edu
+Grade items: 
+ 1      11324     HW      20191016   70       55
+ 2      11324     Quiz    20191003   70       66
+ 3      11324     Final   20191214   145      133
+====================================================================================
+Total:                               285      254  		89.12%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9002234461      Janet           Tomlinson       jtomlinson22@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9000344425      Piper           Kenricks        pkenricks@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9003347855      J. Jonah        Jamison         jjjamison@msudenver.edu
+Grade items: 
+ 1      22343     HW      20190317   20       17
+====================================================================================
+Total:                               20       17   		85%
+------------------------------------------------------------------------
