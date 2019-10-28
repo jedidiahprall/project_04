@@ -1,0 +1,36 @@
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9006673351      Seamus          Davis           sdavis@msudenver.edu
+Grade items: 
+ 1      11324     HW      20191016   70       55
+ 2      11324     Quiz    20191003   70       66
+ 3      11324     Final   20191214   145      133
+====================================================================================
+Total:                               285      254  		89.12%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9002234461      Janet           Tomlinson       jtomlinson22@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9000344425      Piper           Kenricks        pkenricks@msudenver.edu
+Grade items: 
+====================================================================================
+Total:                               0        0    		0%
+
+Student Grade Report
+Student ID	First Name	Last Name	Email Address
+__________	__________	_________	_____________
+9003347855      J. Jonah        Jamison         jjjamison@msudenver.edu
+Grade items: 
+ 1      22343     HW      20190317   20       17
+====================================================================================
+Total:                               20       17   		85%
